@@ -107,9 +107,6 @@
   width: 80%;
 }
 
-.chat__write-column input {
-}
-
 .chat-screen .chat__messages {
   border-top: 1px solid #f7f7f7;
   display: flex;
@@ -145,15 +142,6 @@
 .incoming-message {
   align-self: flex-start;
 }
-@keyframes spin {
-  from {
-    transform: none;
-  }
-  to {
-    transform: rotateY(1turn);
-  }
-}
-
 .incoming-message img {
   width: 30px;
   height: 30px;
@@ -162,8 +150,6 @@
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
     rgba(0, 0, 0, 0.3) 0px 8px 16px -8px,
     rgba(0, 0, 0, 0.024) 0px -6px 16px -6px;
-
-  animation: spin 1s linear infinite;
 }
 
 .sent-message {
